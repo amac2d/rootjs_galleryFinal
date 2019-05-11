@@ -27,7 +27,35 @@ function initiateApp(){
 	addModalCloseHandler();
 }
 function makeGallery(imageArray){
+	/*
+
+		<section id="gallery">
+		<figure class="imageGallery col-xs-12 col-sm-6 col-md-4" style="background-image:url(images/landscape-1.jpg);">
+			<figcaption>landscape-1.jpg</figcaption>
+		</figure>
+		<figure class="imageGallery col-xs-12 col-sm-6 col-md-4" style="background-image:url(images/landscape-2.jpg);">
+			<figcaption>landscape-2.jpg</figcaption>
+		</figure>
+		<figure class="imageGallery col-xs-12 col-sm-6 col-md-4" style="background-image:url(images/landscape-3.jpg);">
+			<figcaption>landscape-3.jpg</figcaption>
+		</figure>
+		<figure class="imageGallery col-xs-12 col-sm-6 col-md-4" style="background-image:url(images/landscape-8.jpg);">
+			<figcaption>landscape-8.jpg</figcaption>
+		</figure>
+		<figure class="imageGallery col-xs-12 col-sm-6 col-md-4" style="background-image:url(images/landscape-9.jpg);">
+			<figcaption>landscape-9.jpg</figcaption>
+		</figure>
+		<figure class="imageGallery col-xs-12 col-sm-6 col-md-4" style="background-image:url(images/landscape-10.jpg);">
+			<figcaption>landscape-10.jpg</figcaption>
+		</figure>
+	</section>
+
+	 */
+
 	//use loops and jquery dom creation to make the html structure inside the #gallery section
+	for(var figNum = 0; figNum < 6 ; figNum++){
+		var figure + figNum =
+	}
 
 	//create a loop to go through the pictures
 		//create the elements needed for each picture, store the elements in variable
